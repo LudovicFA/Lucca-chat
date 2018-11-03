@@ -1,0 +1,6 @@
+:host .blk_messages{
+    background-color: #eee;
+    height: 250px;
+    margin: 5px;
+    overflow-y: scroll;
+}

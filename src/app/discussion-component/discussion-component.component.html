@@ -1,0 +1,8 @@
+<div class="row blk_messages">
+    <div class="col">
+        <div class="row" *ngFor="let message of messages">
+            <div class="col-4"><strong>{{ author === message.author ? 'Me' : message.author }} :</strong></div>
+            <div class="col-8">{{ message.content}}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+<form  class="form-inline" [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+        <input type="text" formControlName="text" class="form-control textInput mb-2 input_message" placeholder="Your message" />      
+        <button class="btn btn-primary ml-auto mb-2 btn_submit_message"  [disabled]="!messageForm.valid">Send</button>
+</form>
